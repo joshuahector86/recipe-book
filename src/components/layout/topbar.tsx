@@ -9,7 +9,7 @@ const Topbar = () => {
         to="/"
         className="flex items-center gap-2 transform hover:scale-120 transition-transform"
       >
-        <img src={logo} alt="logo" className="h-10 w-10 rounded-full" />
+        <img src={logo} alt="logo" loading="lazy" className="h-10 w-10 rounded-full" />
         <h2 className="hover:text-accent-saffron">Recipe Book</h2>
       </Link>
       <div className="flex space-x-4">

@@ -7,7 +7,7 @@ const Page = ({ children }: PageProps) => {
   return (
     <div>
       <Topbar />
-      <div className="p-10">{children}</div>
+      {children}
     </div>
   );
 };
