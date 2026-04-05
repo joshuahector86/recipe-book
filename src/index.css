@@ -15,3 +15,7 @@
   --color-text-mist: #9e9188;
   --color-text-ash: #5c5650;
 }
+
+:root {
+  @apply bg-bg-obsidian text-text-parchment;
+}
